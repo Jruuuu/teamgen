@@ -14,39 +14,6 @@ const render = require("./lib/htmlRenderer");
 const { endianness } = require("os");
 
 
-// Write code to use inquirer to gather information about the development team members,
-// and to create objects for each team member (using the correct classes as blueprints!)
-// const questions = [
-//     {
-//         type: "list",
-//             name: "position",
-//             message: "What position is this Team Member?",
-//             choices:["Manager","Engineer","Intern"]
-//     },
-//     {
-//         type: "input",
-//             name: "employeeName",
-//             message: "What is this Employee's Name",
-
-//     },
-//     {
-//         type: "input",
-//         name: "employeeId",
-//         message: "What is the Employee id number?",
-//     },
-//     {
-//         type: "input",
-//         name: "employeeEmail",
-//         message: "What is the Employee's email address?"
-//     },
-//     {
-//         type: "list",
-//         name: "addEmployee",
-//         message: "Would you like to add another Employee?",
-//         choices: ["YES","NO"]
-
-//     }
-// ];
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
@@ -124,7 +91,7 @@ const createIntern = () => {
         }
     ]).then((answers) => {
         //create new employee Intern Instance
-        const newIntern = new Intern(answers.name, answers.id, answers.email, answers.github);
+        const newIntern = new Intern(answers.name, answers.id, answers.email, answers.school);
         //push new Intern class instance to myTeam
         myTeam.push(newIntern)
         //ask the next set of questions
