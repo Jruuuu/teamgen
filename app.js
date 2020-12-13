@@ -11,7 +11,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 const myTeam = [];
 
 const render = require("./lib/htmlRenderer");
-const { end } = require("os");
+const { endianness } = require("os");
 
 
 // Write code to use inquirer to gather information about the development team members,
