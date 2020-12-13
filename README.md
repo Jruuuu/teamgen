@@ -18,11 +18,12 @@ I am a manager  looking to create a TEAM chart using the NODE.JS enviroment
 - INSTALL GITBASH
 - Clone To REPO
 - Type "npm i -y" in Terminal  (I use GITBASH)
+- Run Command: node app.js
 <br>
 <br>
 I have added a link to a installation video for guidance
 <br>
-<a href="">***--Installation Video Link--***</a>
+<a href="https://drive.google.com/file/d/1AYCAZZmo-m3Z2M7HNxWjCEF6sUACWUa8/view">***--Installation Video Link--***</a>
 <br>
 
 ## Questions Prompted for TEAMGEN Template <a name="questions"></a>
